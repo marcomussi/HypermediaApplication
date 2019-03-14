@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Pasteur Center",
+        "description": "The Pasteur Center is is a Surgery-specialized medical center dedicated to people of all ages, located in Milan.It guarantees access to Surgery services such as adenotonillectomy, laparotomy, breast surgery and more.<br><br>Located in the centre of the Città Studi area, it is one of the core buildings of the ML Health clinic: it employs more 100 health specialists (including doctors, nurses and other assistants) and is equipped with 50 recovery beds, with full support to people with difficulties in walking. <br><br>The Center includes a very modern structure, built in 2001, that has 6 floors and has an extension of 11.700 square meters; it is one of the most technologically advanced clinic in Milan, due to the presence of the latest generation diagnostic equipment in all our laboratories and aid rooms.",
+        "address": "Piazza Leonardo da Vinci, 20133 Milano.",
+        "phone": "0833 54 19 12",
+        "imageurl": "pasteur.jpg",
+        "imageurl2": "pasteur2.jpg",
+        "map": "https://www.google.com/maps/embed/v1/place?key=AIzaSyD9GjZIm9Pvex4X9siylhlrg3HIIgUMB8s&q=Piazza+Leonardo+Da+Vinci,+Milano"
+
+    },
+
+    {
+        "title": "Moser Center",
+        "description": "The Moser Centre, which is the most modern centre of our network, gathers all the radiology and dentistry services and is also a hub for congresses. Located in via Pacini, this centre employs more than 100 health specialists and is equipped with 65 recovery beds; moreover, it features state-of-the-art technology and machinery to support any kind of intervention.<br> The center has 4 floors and an extension of 8.500 square meters.",
+        "address": "Via Pacini 3, 20133 Milano.",
+        "phone": "0833 54 19 13",
+        "imageurl": "moser.jpg",
+        "imageurl2": "moser2.jpg",
+        "map": "https://www.google.com/maps/embed/v1/place?key=AIzaSyD9GjZIm9Pvex4X9siylhlrg3HIIgUMB8s&q=via+Pacini,+Milano"
+
+    },
+
+    {
+        "title": "Darwin Center",
+        "description": "The Darwin Center is is a medical center dedicated to people of all ages, located in Milan and specialized in dermatology and pediatrics services.<br><br>Located in the centre of the Città Studi area, it is one of the core buildings of the ML Health clinic: it employs more 90 health specialists (including doctors, nurses and other assistants) and is equipped with 30 recovery beds, with full support to people with difficulties in walking. <br><br>The Center includes a very modern structure, built in 2006, that has 5 floors and has an extension of 10.500 square meters; it is one of the most technologically advanced clinic in Milan, due to the presence of the latest generation diagnostic equipment in all our laboratories and aid rooms.",
+        "address": "Piazzale Piola 2, 20133 Milano.",
+        "phone": "0833 54 19 14",
+        "imageurl": "darwin.jpg",
+        "imageurl2": "darwin2.jpg",
+        "map": "https://www.google.com/maps/embed/v1/place?key=AIzaSyD9GjZIm9Pvex4X9siylhlrg3HIIgUMB8s&q=Piazzale+Piola,+Milano"
+
+    }
+]

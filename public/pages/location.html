@@ -1,0 +1,146 @@
+<!-- this page contain a single location -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/location.js"></script>
+
+
+</head>
+
+<body style="padding-top: 70px">
+
+    <!--Horizontal navbar, fixed on top-->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../index.html" class="navbar-brand">ML Health</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" id="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="doctors">Doctors <span class="caret"></span></a>
+
+                        <!--This is the dropdown menu that opens when clicking on "Doctors" link in the navbar-->
+                        <ul class="dropdown-menu" id="doctorsDrop" aria-labelledby="themes">
+                            <li><a href="./all_doctors.html">All doctors</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Doctors by service</a></li>
+                            <li><a href="./doctors_by_location.html">Doctors by location</a></li>
+                            <li><a href="#">Doctors by area</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./practical_info.html">Practical info</a>
+                    </li>
+                    <li>
+                        <a href="./who_we_are.html">Who we are</a>
+                    </li>
+                    <li>
+                        <a href="./all_locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="#">Areas</a>
+                    </li>
+                    <li>
+                        <a href="./all_services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="./faq.html">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container has-top-margin">
+
+        <!--The following elements will be filled by javascript with dymaic datas-->
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-12">
+                <h2 id="title"></h2>
+                <p id="desc"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div id="location_img"></div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+                <div id="location_img2"></div>
+            </div>
+
+        </div>
+        <style>
+            .google-maps {
+                position: relative;
+                padding-bottom: 75%;
+                height: 0;
+                overflow: hidden;
+            }
+            
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+            }
+
+        </style>
+        
+        <div class="row has-top-margin">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="google-maps" id="map">
+                
+            </div>
+                </div>
+
+        </div>
+        
+        <div class="row has-top-margin">
+
+            <!--Footer-->
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <hr>
+                <ul class="list-inline has-top-margin">
+                    <li class="pull-right"><a href="#top">Back to top</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work with us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Partner clinics</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <p>Made by Dario Fersini, Fabrizio Indirli and Marco Mussi.</p>
+                <p>All rights reserved to ML Health</p>
+                <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

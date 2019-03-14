@@ -1,0 +1,22 @@
+[
+  {
+        "question": "What is your appointment policy?",
+        "answer": "Our physicians must work by appointment. Unfortunately, occasionally patient appointments do require longer time frames than scheduled. When this happens, your patience is appreciated. A sincere attempt is made to adhere to the clinic schedule as much as possible. The registration staff will advise you if the physician is significantly behind schedule. We ask that whenever possible, a return appointment for regular checkups be made before leaving the clinic."
+  },   
+  {
+        "question": "Do I need to bring anything special to my first visit?",
+        "answer": "We want to ensure you are seen quickly once you arrive and that your time with the physician is used effectively. It will be helpful if you bring to all your visits your current insurance card, photo ID, and any medications you are taking. Also, any forms or test results that you have been provided, such as x-rays. If your insurance has a co-pay for an office visit, you will be responsible to pay at the time of your visit. A helpful form may be found under the 'patient forms' section in the patient care section called 'Speakup - Tips for Your Doctor's Visit."
+  },   
+  {
+        "question": "What can I expect at the first appointment?",
+        "answer": "Our registration staff will ask you to fill out a health history form. These questions are the initial part of the examination and provide us with essential information about you and your medical history. Your address, e-mail and phone number are very important in case we need to get in touch with you. Information concerning your occupation, age, etc., is likewise important because it may have a bearing on your current health status. Additionally, this information is required by insurance networks to insure payment reimbursement. We also ask about language, hearing or vision barriers to allow us to appropriately communicate with you. All information given to us is confidential."
+  },   
+  {
+        "question": "How do I choose a Continuity of Care Provider?",
+        "answer": "As a Primary Care Medical Home, we ask you to work with our clinical staff to select a Continuity of Care Provider. At your first visit you will have input into your Continuity of Care Provider, and will be able to choose a team of clinicians that will establish a health care relationship with you to provide the best preventative health care possible. As part of the Patient Centered Medical Home initiative, all patients are assigned to a Continuity of Care Provider who functions as part of a team of physicians to allow for patient centered, continuous care for you as the patient."
+  },   
+  {
+        "question": "How do I get a refill on my prescription?",
+        "answer": "We ask that prescription refills be completed during regular office visits whenever possible. Calls for prescription refills may be made 24 hours a day through our phone tree. Physicians must have the benefit of reviewing your medical record before prescribing any additional medications. Calculate in advance when you may need a refill on medicines that were prescribed by us, as we require at least 72 hours notice. Please allow at least 7 days to refill narcotics. When calling the clinic, choose #4 on the phone tree, and follow the prompts. Please have the medication name and dose, pharmacy name and number available, and leave your name and date of birth and attending physician, so we may expedite your request. Certain prescriptions must be picked up and signed for during regular office hours."
+  }
+]

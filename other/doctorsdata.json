@@ -1,0 +1,102 @@
+[
+    {
+        "name": "John Wayne",
+        "spec": "Radiology",
+        "location": "1",
+        "paragraph1": "Specialized in praise at the University of Milan, he focused more on his clinical and research activities in the field of Maternal and Fetal Medicine, in particular invasive prenatal diagnosis (amniocentesis and vascular and non-invasive) (Bitest and Nervous Translucency, Fetal DNA on maternal blood, early morphological ultrasound, morphological ultrasound II level etc.). He acquired theoretical and practical qualification for the first trimester screening screening and other certifications as an accredited operator for performing 2nd level obstetric and gynecological ultrasound.",
+        "paragraph2": "It currently maintains scientific collaboration relationships with several national hospitals for professional scientific updating. Currently he is a freelance professional at private studios, consultants and specialist polyclinics.",
+        "imageurl": "john.jpg",
+        "service_id": "2"
+  },
+
+    {
+        "name": "Mark Powell",
+        "spec": "Dentistry",
+        "location": "2",
+        "paragraph1": "Prior to joining the ML Health Clinic in 1997, Dr. Mark Powell was in private practice with EENT Associates, Inc. He is certified by the American Board of Dentistry. He earned his medical degree from Case Western Reserve University School of Medicine in Cleveland, Ohio. He completed a surgical internship and residency at Mount Sinai Medical Center in Cleveland, Ohio and a dentistry residency at the Cleveland Clinic, also in Cleveland, Ohio.",
+        "paragraph2": "He has several publications on topics such as unilateral superior laryngeal nerve paralysis and laryngopharyngeal reflux.  He is a member of several medical societies, including the Voice Foundation, the Ohio State Medical Association and the American Medical Association.  He previously served on the board of the Academy of Medicine of Cleveland and Northern Ohio (AMCNO).",
+        "imageurl": "mark.jpg",
+        "service_id": "1"
+  },
+
+    {
+        "name": "Philip Morris",
+        "spec": "Pediatrics",
+        "location": "3",
+        "paragraph1": "Philip Morris, MD, PhD,has joined the Department of Pediatrics in the Digestive Disease and Surgery Institute as Director of the Intestinal Transplant Program. During the next few months, Dr. Philip Morris will take on leadership of the Transplant Center from John Fung, MD, Chairman of the Digestive Disease and Surgery Institute, who has directed the center until now. Dr. Philip has led the Intestinal Rehabilitation and Transplant Center at the University of Pittsburgh (UPMC) since its establishment in 1999 and has earned an international reputation for clinical and technical contributions to the field of transplantation. He has authored more than 300 original publications and 40 book chapters. He is an active member of 13 prominent professional and scientific societies.",
+        "paragraph2": "In addition to his clinical and surgical expertise in the field of liver transplantation, Dr. Philip Morris has also made significant global contributions to the field of portal hypertensive surgery. He played a pivotal role in the development and introduction of the immunosuppressive drug FK506, also known as Prograf.",
+        "imageurl": "philip.jpg",
+        "service_id": "3"
+  },
+
+    {
+        "name": "Andrew Garfield",
+        "spec": "Surgery",
+        "location": "1",
+        "paragraph1": "Andrew Garfield, MD, is Section Head and a Staff Surgeon in the Department of Family Medicine at the ML Health Center. His specialty interests are medical education, community medicine and preventive health. Dr. Garfield earned his medical degree from Case Western Reserve University School of Medicine in Cleveland, Oh. He completed his residency in family practice at Saint Joseph Hospital-Exempla in Denver, Colo.",
+        "paragraph2": "He has focused his research efforts on the observation of the doctor-patient encounter and patient satisfaction.",
+        "imageurl": "andrew.jpg",
+        "service_id": "4"
+  },
+
+    {
+        "name": "Al Pacino",
+        "spec": "Surgery",
+        "location": "2",
+        "paragraph1": "Al Pacino, M.D. joined ML Health's Department of General Surgery after three-years of advanced fellowship training in minimally invasive surgery, bariatric surgery, and diabetes surgery. He is Associate Professor of Surgery at the Cleveland Clinic Lerner College of Medicine, and is licensed by the State Medical Board of Ohio. His clinical interests include gastrointestinal surgery, advanced laparoscopic surgery, and surgery for severe obesity and diabetes.",
+        "paragraph2": "As an academic surgeon in the Section of Laparoscopic and Bariatric Surgery, Dr. Pacino has been involved in clinical and experimental research on the role of minimally invasive gastrointestinal procedures in management of obesity, diabetes, and metabolic syndrome. He has an outstanding record of peer-reviewed publications (>100) in high impact journals including New England Journal of Medicine, Diabetes Care, Annals of Surgery, and British Journal of Surgery. ",
+        "imageurl": "al.jpeg",
+        "service_id": "3"
+  },
+
+    {
+        "name": "Simon White",
+        "spec": "Dermatology",
+        "location": "2",
+        "paragraph1": "Specialized in praise at the University of Milan, he focused more on his clinical and research activities in the field of Maternal and Fetal Medicine, in particular invasive prenatal diagnosis (amniocentesis and vascular and non-invasive) (Bitest and Nervous Translucency, Fetal DNA on maternal blood, early morphological ultrasound, morphological ultrasound II level etc.). He acquired theoretical and practical qualification for the first trimester screening screening and other certifications as an accredited operator for performing 2nd level obstetric and gynecological ultrasound.",
+        "paragraph2": "It currently maintains scientific collaboration relationships with several national hospital hospitals for professional scientific updating. Currently he is a freelance professional at private studios, consultants and specialist polyclinics.",
+        "imageurl": "simon.jpg",
+        "service_id": "2"
+  },
+
+    {
+        "name": "Alfred Hitchcock",
+        "spec": "Dentistry",
+        "location": "3",
+        "paragraph1": "Alfred Hitchcock, DMD, received his dental degree from Case Western Reserve University School of Dental Medicine and completed a general practice residency at the ML Health Clinic. He joined the Staff in 2006, served as Program Director for the General Practice Residency until 2013, and now serves as the Section Head of Dentistry.",
+        "paragraph2": "Dr. Hitchcock provides general restorative dental care, with a special interest in dental care for medically complex patients as well as treatment of traumatic dental injuries. He maintains membership in professional societies including the American Association of Hospital Dentists, American Dental Association, Greater Cleveland Dental Society and the Academy of Dental Sleep Medicine.",
+        "imageurl": "alfred.jpg",
+        "service_id": "4"
+  },
+
+    {
+        "name": "Susan Pear",
+        "spec": "Surgery",
+        "location": "2",
+        "paragraph1": "Susan pear, DPM, has been on staff in the Department of Orthopaedic Surgery at Cleveland Clinic since 1997. Her practice locations are at Ml Health main campus and Cleveland Clinic Willoughby Hills Family Health Center. She is Head of the Section of Podiatry and Medical Director of the Diabetic Foot Clinic, with a concentration on treating foot ulcers and amputation prevention.",
+        "paragraph2": "It currently maintains scientific collaboration relationships with several national hospital hospitals for professional scientific updating. Currently he is a freelance professional at private studios, consultants and specialist polyclinics.",
+        "imageurl": "susan.jpeg",
+        "service_id": "2"
+  },
+
+    {
+        "name": "Harold Luthor",
+        "spec": "Physiotherapy",
+        "location": "2",
+        "paragraph1": "Dr. Luthor obtained his medical degree from Istanbul University, Istanbul School of Medicine, Turkey. After he completed five years of general surgery residency training at Istanbul University, Cerrahpasa School of Medicine in Turkey, he moved to the United States. He finished 2 years of research fellowship followed by a year of clinical fellowship at the Cleveland Clinic, Department of Colorectal Surgery. He moved to New York City for an advanced laparoscopic colorectal fellowship at the New York Presbyterian hospital, Weill-Cornell. In New York he decided to complete an ACGME approved residency at New York Presbyterian hospital, Weill-Cornell Medical College. ",
+        "paragraph2": "Dr. Luthor then also completed an ACGME approved specialty training in Colon and Rectal surgery/laparoscopic surgery at Weill-Cornell and Memorial Sloan-Kettering Cancer Center. Dr. Luthor joined Cleveland Clinic, Department of Colorectal Surgery as a full time faculty in 2011 and he is certified by the American Board of Colon and Rectal Surgery and American Board of Surgery. ",
+        "imageurl": "harold.jpeg",
+        "service_id": "5"
+  },
+
+    {
+        "name": "Anne Whitney",
+        "spec": "Physiotherapy",
+        "location": "3",
+        "paragraph1": "A practicing pulmonologist and physiotherapist, Dr. Whitney’s scientific accomplishments have been broad and far-reaching in impact for respiratory medicine. Her contributions and leadership in pulmonary research have led to diagnostic and therapeutic advances in lung diseases, and helped to identify human physiologic adaptive responses to high-altitude hypoxia. She has published more than 200 peer-reviewed articles and has been principal investigator on more than 20 federal grants, including multi-investigator program project grants and network trials.",
+        "paragraph2": "Dr. Whitney has earned numerous awards, including the prestigious MERIT award from the National Heart, Lung and Blood Institute (NHLBI), election to the American Society for Clinical Investigation (ASCI) and Association of American Physicians (AAP), and the Scientific Achievement Award from the American Thoracic Society. Because of her extensive and successful mentoring of trainees and junior faculty, Dr Erzurum was honored with the Elizabeth Rich Award from the American Thoracic Society for her work in advancing the careers of women in medicine and science.",
+        "imageurl": "anne.jpg",
+        "service_id": "5"
+  }
+
+]

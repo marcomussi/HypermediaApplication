@@ -1,0 +1,131 @@
+<!-- this page contains a single service -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="../assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/all_services.js"></script>
+</head>
+
+<body style="padding-top: 70px">
+     <!--Horizontal navbar, fixed on top-->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../index.html" class="navbar-brand">ML Health</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" id="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <!--This is the dropdown menu that opens when clicking on "Doctors" link in the navbar-->
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="doctors">Doctors <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="doctorsDrop" aria-labelledby="themes">
+                            <li><a href="./all_doctors.html">All doctors</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Doctors by service</a></li>
+                            <li><a href="./doctors_by_location.html">Doctors by location</a></li>
+                            <li><a href="#">Doctors by area</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./practical_info.html">Practical info</a>
+                    </li>
+                    <li>
+                        <a href="./who_we_are.html">Who we are</a>
+                    </li>
+                    <li>
+                        <a href="./all_locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="#">Areas</a>
+                    </li>
+                    <li>
+                        <a href="./all_services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="./faq.html">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container has-top-margin">
+        <div class="row">
+            <!--Table with all the services; it is fullfilled by the javascript with dynamic datas-->
+            <div class="col-md-6">
+                <h2> All Services</h2><br>
+                <table id="servicesTable">
+
+                    <tbody>
+                        <div class="bs-component">
+                            <table class="table table-striped table-hover ">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Service Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="s_rows">
+                                    <tr class="info">
+                                        <td>3</td>
+                                        <a href="service.html?id=${service.id}">
+                                            <td>Column content</td>
+                                        </a>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </tbody>
+                </table>
+                <div class="col-md-6 col-lg-6">
+                    <img src="../assets/img/services/allservices.png" width="100%" style="padding-top:100px">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--Footer-->
+            <div class="col-lg-2 col-md-2 col-sm-2"></div>
+            <div class="col-lg-8 col-md-8 col-sm-8">
+                <hr>
+                <ul class="list-inline has-top-margin">
+                    <li class="pull-right"><a href="#top">Back to top</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work with us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Partner clinics</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <p>Made by Dario Fersini, Fabrizio Indirli and Marco Mussi.</p>
+                <p>All rights reserved to ML Health</p>
+                <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

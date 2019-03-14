@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Adenotonsillectomy",
+        "description": "Adenotonsillectomy is usually performed in children who have problems associated with sleeping. Children who have problems associated with snoring or obstructive sleep apnoea should be assessed as to whether they need to have their tonsils and adenoids removed. This assessment includes determining whether your child seems to stop breathing throughout the night as well as whether they snore every night.",
+        "painRelief": "You can take nurofen if the panadol is not effective pain relief for you and provided you are not allergic to it or have asthma. A large study has demonstrated that the use of nurofen post tonsillectomy does not increase the risk of bleeding after this surgery. We recommend you take the nurofen no more than 3 times a day and to take it during a meal as it can cause significant stomach upset.(Cardwell, Siviter et al. 2005)",
+        "image": "adenotonsillectomy.jpg",
+        "area": "Surgery",
+        "location": "3",
+        "responsible_doctor_id": "2"
+    },
+    {
+        "title": "Appendectomy",
+        "description": "Appendicitis is one of the most common surgical problems. One out of every 2,000 people has an appendicectomy sometime during their lifetime. Treatment requires an operation to remove the infected appendix. Traditionally, the appendix is removed through an incision in the right lower abdominal wall. In most laparoscopic appendectomies, surgeons operate through 3 small incisions(each¼ to½ inch) while watching an enlarged image of the patient’ s internal organs on a television monitor.In some cases,one of the small openings may be lengthened to 2 or 3 inches to complete the procedure.",
+        "painRelief": "Panadol – Take this regularly for the first 3 days regardless of whether you are in pain or not",
+        "image": "appendectomy.jpg",
+        "area": "Surgery",
+        "location": "3",
+        "responsible_doctor_id": "1"
+    },
+    {
+        "title": "Abscess Removal",
+        "description": "Some small skin abscesses may drain naturally and get better without the need for treatment. Applying heat in the form of a warm compress, such as a warm flannel, may help reduce any swelling and speed up healing.",
+        "painRelief": "You can take nurofen if the panadol is not effective pain relief for you and provided you are not allergic to it or have asthma. A large study has demonstrated that the use of nurofen post abscess removal does not increase the risk of bleeding after this surgery. We recommend you take the nurofen no more than 3 times a day and to take it during a meal as it can cause significant stomach upset.(Cardwell, Siviter et al. 2005)",
+        "image": "abscessremoval.png",
+        "area": "Surgery",
+        "location": "2",
+        "responsible_doctor_id": "3"
+    },
+    {
+        "title": "Breast surgery",
+        "description": "Adenotonsillectomy is usually performed in children who have problems associated with sleeping. Children who have problems associated with snoring or obstructive sleep apnoea should be assessed as to whether they need to have their tonsils and adenoids removed. This assessment includes determining whether your child seems to stop breathing throughout the night as well as whether they snore every night.",
+        "painRelief": "Painstop has an unpredictable response in some patients. There have been some adverse outcomes with painstop post abreast surgery due to some patients metabolizing this medication at a faster rate than other patients. We do not recommend painstop for this reason.(Ciszkowski, Madadi et al. 2009, Kelly, Rieder et al. 2012)",
+        "image": "breastsurgery.jpg",
+        "area": "Surgery",
+        "location": "1",
+        "responsible_doctor_id": "7"
+    },
+    {
+        "title": "Colectomy",
+        "description": "Colectomy is a surgical procedure to remove all or part of your colon. Your colon, also called your large intestine, is a long tubelike organ at the end of your digestive tract. Colectomy may be necessary to treat or prevent diseases and conditions that affect your colon. There are various types of colectomy operations: Total colectomy involves removing the entire colon. Partial colectomy involves removing part of the colon and may also be called subtotal colectomy.<li>Hemicolectomy involves removing the right or left portion of the colon.<li>Proctocolectomy involves removing both the colon and rectum. Colectomy surgery usually requires other procedures to reattach the remaining portions of your digestive system and permit waste to leave your body.",
+        "painRelief": "You can take nurofen if the panadol is not effective pain relief for you and provided you are not allergic to it or have asthma. A large study has demonstrated that the use of nurofen post tonsillectomy does not increase the risk of bleeding after this surgery. We recommend you take the nurofen no more than 3 times a day and to take it during a meal as it can cause significant stomach upset.(Cardwell, Siviter et al. 2005)",
+        "image": "colectomy.jpg",
+        "area": "Surgery",
+        "location": "1",
+        "responsible_doctor_id": "9"
+    }
+]

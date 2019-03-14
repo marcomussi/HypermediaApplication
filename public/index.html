@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ML Health</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/home_script.js"></script>
+
+</head>
+
+<body>
+
+    <!--Horizontal navbar, fixed on top-->
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">ML Health</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" id="navbar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="doctors">Doctors <span class="caret"></span></a>
+
+                        <!--This is the dropdown menu that opens when clicking on "Doctors" link in the navbar-->
+                        <ul class="dropdown-menu" id="doctorsDrop" aria-labelledby="themes">
+                            <li><a href="./pages/all_doctors.html">All doctors</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Doctors by service</a></li>
+                            <li><a href="./pages/doctors_by_location.html">Doctors by location</a></li>
+                            <li><a href="#">Doctors by area</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./pages/practical_info.html">Practical info</a>
+                    </li>
+                    <li>
+                        <a href="./pages/who_we_are.html">Who we are</a>
+                    </li>
+                    <li>
+                        <a href="./pages/all_locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="#">Areas</a>
+                    </li>
+                    <li>
+                        <a href="./pages/all_services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="./pages/faq.html">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="page-header" id="banner">
+            <div class="row">
+                <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3" style="padding-left: 5px;">
+                    <img src="assets/img/logo.png" width="70%" height="auto">
+                </div>
+                <div class="col-lg-8 col-md-7 col-sm-6" style="padding-right: 5px;">
+                    <h1>ML Health</h1>
+
+                    <p class="lead">Multi-specialized Healthcare clinic in Milan</p>
+                </div>
+
+
+            </div>
+
+            <div class="row has-top-margin">
+                <div class="col-lg-12">
+                    <div class="bs-component">
+                        <!--Introductory image with text-->
+                        <div class="jumbotron" style="background-image: url(./assets/img/locations/pasteur.jpg); background-size: 100% 100%">
+                            <div class="alert alert-dismissible alert-info_tr">
+                                <h2>ML Health, your private health clinic in Milan</h2>
+                                <p style="font-size:18px; color: black;">Our international group of English speaking doctors and dentists provide friendly and professional care for individuals, families and visitors of all nationalities in Milan.</p>
+                                <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row has-top-margin">
+            <!--The second row contains boxes with general infos-->
+            <div class="col-md-4">
+
+                <div class="panel panel-default">
+                    <div class="img-padding">
+                        <img src="assets/img/surgery-home.jpg" width="100%">
+                        <h3>New surgery services</h3>
+                        <p> Starting this month, our clinic will offer abscess and fistula removal surgery with the support of the most recent technology in the field.
+                            <br>Visit our dedicated page to know how to book!</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="panel panel-default">
+                    <div class="img-padding">
+                        <img src="assets/img/courses.jpg" width="100%">
+                        <h3>Training courses</h3>
+                        <p> Our medical training courses equip students with the essential medical skills and knowledge needed to deliver lifesaving immediate medical care in all types of environments including hostile, remote and urban environments. </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="img-padding">
+                        <img src="assets/img/watch.jpg" width="100%">
+                        <h3>Opening hours</h3>
+                        <p> Our centers are open in the following hours: </p>
+                        <ul>
+                            <li>Moser center: lun-sat 8:30-20:30</li>
+                            <li>Pasteur center: lun-fri 8:30-20:30</li>
+                            <li>Darwin center: lun-sat 8:30-18:30</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <!--The carousel is used to show news-->
+            <div class="col-md-12 col lg-12">
+                <div id=”myCarousel” class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Elements -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./assets/img/doctor-on-phone.jpg" alt="MEDICS ON THE LINE">
+                            <div class="carousel-caption light-tr-background">
+
+                                <h2>MEDICS ON THE LINE</h2>
+                                <p>Call our doctors from Monday to Sunday 8.00-19.00 <br>at 0833 54 19 12</p>
+
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/img/research.jpg" alt="RESEARCH">
+                            <div class="carousel-caption light-tr-background">
+                                <h1>RESEARCH POSITIONS OPEN</h1>
+                                <p>Apply now for a year-long contract with our research laboratories</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/img/operating-room.jpg" alt="NEW OPERATING ROOMS">
+                            <div class="carousel-caption light-tr-background">
+                                <h1>NEW OPERATING ROOMS</h1>
+                                <p>Now available in Moser Centre with state-of-the-art technology</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel's control arrows -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" id="leftButton"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" id="rightButton"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--Footer-->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <hr>
+                <ul class="list-inline has-top-margin">
+                    <li class="pull-right"><a href="#top">Back to top</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work with us</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Partner clinics</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <p>Made by Dario Fersini, Fabrizio Indirli and Marco Mussi.</p>
+                <p>All rights reserved to ML Health</p>
+                <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
